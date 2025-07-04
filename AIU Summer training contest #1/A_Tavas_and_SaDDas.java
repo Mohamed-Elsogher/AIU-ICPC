@@ -13,7 +13,7 @@ public class A_Tavas_and_SaDDas {
 
         out.flush();
     }
-
+    // recursion
     public static long isLucky(long num, long i) {
         if (num > n) return -1;
         else if (num == n) return i;
@@ -22,7 +22,8 @@ public class A_Tavas_and_SaDDas {
                 isLucky(num * 10 + 7, i * 2 + 2)
         );
     }
-
+    
+    // Fast Reader for Input
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;
